@@ -6,7 +6,6 @@ DROP TABLE dept_emp;
 DROP TABLE dept_manager;
 DROP TABLE salaries;
 
-
 -- Create a table of departments
 CREATE TABLE departments (
   dept_no VARCHAR,
@@ -57,7 +56,7 @@ CREATE TABLE salaries (
   FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
 
-
+-- Check imported data
 select * from departments;
 select * from titles;
 select * from employees;
