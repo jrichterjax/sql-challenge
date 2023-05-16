@@ -1,6 +1,6 @@
 Departments
 -
-dept_no VARCHAR PK FK >-< Dept_Emp.dept_no
+dept_no VARCHAR PK FK -< Dept_Emp.dept_no
 dept_name VARCHAR
 
 
