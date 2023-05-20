@@ -1,15 +1,15 @@
 # sql-challenge
 
-Data Modeling - ERD image
+Data Modeling - an ERD image is included to indicate the tables to be created, as well as demonstrate the relationship between tables.
 
 
 
-Data Engineering - table schemata and tables.sql file
+Data Engineering - a table schemata outlines the tables included in the tables.sql file; the tables.sql file includes the code used to create the necessary tables to import 6 employee data csv files - departments, dept_emp, dept_manager, employees, salaries, and titles.
 
 
 
 
-Data Analysis - the queries included in this repository produce the following: 
+Data Analysis - the queries in the queries.sql file produce the following: 
 
 - The employee number, last name, first name, sex, and salary for each employee.
 - The first name, last name, and hire date for the employees who were hired in 1986.
