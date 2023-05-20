@@ -4,7 +4,7 @@ Data Modeling - an ERD image is included to indicate the tables to be created, a
 
 
 
-Data Engineering - a table schemata outlines the tables included in the tables.sql file; the tables.sql file includes the code used to create the necessary tables to import 6 employee data csv files - departments, dept_emp, dept_manager, employees, salaries, and titles.
+Data Engineering - a table schemata outlines the tables included in the tables.sql file; the tables.sql file includes the code used to create the necessary tables to import 6 employee data csv files - departments, dept_emp, dept_manager, employees, salaries, and titles. The tables.sql file begins with code used to delete the tables if they already exist, and the file ends with code used to display all data in the tables if the tables have been created and data has been imported.
 
 
 
